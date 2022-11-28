@@ -1,0 +1,162 @@
+body {
+    background-image: url("global.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+.advert {
+    background-color: blue;
+    height: 6em;
+    width: 77em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    background-image: url("advert.PNG");
+    background-color: brown;
+}
+
+.container1 {
+
+    background-color: rgb(0, 119, 255);
+    height: 10em;
+    width: auto;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 5px 10px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 0.2em;
+    /* box-shadow: 5px 10px; */
+    padding-left: 25em;
+
+
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.loginPage {
+    padding: 16px;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.meetingsCointainer {
+    align-items: center;
+    margin-left: 25em;
+    margin-top: 12em;
+}
+
+
+.nowmeeting {
+
+width: 20em;
+height: 14em;
+background-color: rgb(51, 51, 51);
+align-items: center;
+margin: auto;
+}
+
+.latermeeting{
+    margin: auto;
+    width: 20em;
+    height: 14em;
+  background-color: rgb(51, 51, 51);   
+}
+.meetinglist{
+width: 30em;
+height: 30em;
+
+margin-right: 2em;
+margin-left: 25em;
+/* margin: auto; */
+
+
+}
+.button{
+
+    width: 15em;
+    height: 3em;
+    border-radius: 0.5em;
+    align-self:center ;
+    padding: auto;
+    margin: auto;
+}
